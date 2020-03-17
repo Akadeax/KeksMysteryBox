@@ -1,0 +1,10 @@
+name: MysteryBox
+version: ${project.version}
+main: me.akadeax.mysterybox.MysteryBox
+api-version: "1.13"
+
+commands:
+  mysterybox:
+    aliases:
+      - mb
+    usage: /<command>
