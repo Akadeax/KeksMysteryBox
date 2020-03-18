@@ -10,8 +10,14 @@ public class InventoryUtil {
         }
     }
 
-    public static void glassPaneFill(Inventory inv) {
+    public static void randGlassPaneFill(Inventory inv) {
         for(int i = 0; i < inv.getSize(); i++) {
+            inv.setItem(i, new ItemStack(MaterialUtil.rainbowStainedGlassPane()));
+        }
+    }
+    public static void randGlassPaneFill(Inventory inv, int exceptSlot) {
+        for(int i = 0; i < inv.getSize(); i++) {
+            if(i == exceptSlot) continue;
             inv.setItem(i, new ItemStack(MaterialUtil.rainbowStainedGlassPane()));
         }
     }

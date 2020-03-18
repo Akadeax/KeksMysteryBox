@@ -53,7 +53,7 @@ public final class MysteryBox extends JavaPlugin {
         mainConfig.addDefault("rewardDisplay.money", "§bMoney Reward of §6{AMOUNT}$");
         mainConfig.addDefault("rewardDisplay.permission", "§bPermission §6{PERMISSION}");
         mainConfig.addDefault("rewardDisplay.displayItemAmount", 20);
-        mainConfig.addDefault("rewardDisplay.displayItemDelay", 5);
+        mainConfig.addDefault("rewardDisplay.displayItemDelayFactor", 0.2d);
         mainConfig.addDefault("rewardDisplay.lastItemDisplayDelay", 60);
 
         mainConfig.options().copyDefaults(true);
@@ -64,6 +64,7 @@ public final class MysteryBox extends JavaPlugin {
         loadRewards(gson);
     }
 
+    @SuppressWarnings("ConstantConditions")
     private void register() {
         PluginManager pm = getServer().getPluginManager();
 

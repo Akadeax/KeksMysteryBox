@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5a354b44-fd90-49af-9d81-7a0dad963d4e" name="Default Changelist" comment="" />
+    <list default="true" id="5a354b44-fd90-49af-9d81-7a0dad963d4e" name="Default Changelist" comment="Made animation fancy">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/akadeax/mysterybox/AnimationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/akadeax/mysterybox/AnimationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/akadeax/mysterybox/MysteryBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/akadeax/mysterybox/MysteryBox.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/akadeax/mysterybox/util/InventoryUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/akadeax/mysterybox/util/InventoryUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/MysteryBox-1.0-shaded.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/MysteryBox-1.0-shaded.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/MysteryBox-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/MysteryBox-1.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/me/akadeax/mysterybox/AnimationController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/me/akadeax/mysterybox/AnimationController$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/me/akadeax/mysterybox/AnimationController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/me/akadeax/mysterybox/AnimationController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/me/akadeax/mysterybox/MysteryBox.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/me/akadeax/mysterybox/MysteryBox.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/me/akadeax/mysterybox/util/InventoryUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/me/akadeax/mysterybox/util/InventoryUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/original-MysteryBox-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/original-MysteryBox-1.0.jar" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,6 +28,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -25,6 +41,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1Z2ENSVsYIYVpa1QlsLr2kOZ6iD" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -34,6 +51,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -96,6 +114,10 @@
     </task>
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Made animation fancy" />
+    <option name="LAST_COMMIT_MESSAGE" value="Made animation fancy" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="552" y="179" key="#Auto_Import" timestamp="1584468169683">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -105,10 +127,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="179" key="#Project_Structure/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1584040727998" />
-    <state x="765" y="224" key="#com.intellij.ide.util.MemberChooser" timestamp="1584473486332">
+    <state x="765" y="224" key="#com.intellij.ide.util.MemberChooser" timestamp="1584530333605">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="224" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1584473486332" />
+    <state x="765" y="224" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1584530333605" />
     <state x="748" y="361" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1584468275814">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -117,33 +139,41 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1584470176745" />
-    <state width="1877" height="171" key="GridCell.Tab.0.bottom" timestamp="1584473869311">
+    <state x="575" y="28" key="CommitChangelistDialog2" timestamp="1584537392860">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="171" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1584473869311" />
-    <state width="1877" height="171" key="GridCell.Tab.0.center" timestamp="1584473869311">
+    <state x="575" y="28" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1584537392860" />
+    <state width="1877" height="171" key="GridCell.Tab.0.bottom" timestamp="1584534339724">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="171" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1584473869311" />
-    <state width="1877" height="171" key="GridCell.Tab.0.left" timestamp="1584473869311">
+    <state width="1877" height="171" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1584534339724" />
+    <state width="1877" height="171" key="GridCell.Tab.0.center" timestamp="1584534339724">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="171" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1584473869311" />
-    <state width="1877" height="171" key="GridCell.Tab.0.right" timestamp="1584473869311">
+    <state width="1877" height="171" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1584534339724" />
+    <state width="1877" height="171" key="GridCell.Tab.0.left" timestamp="1584534339724">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="171" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1584473869311" />
+    <state width="1877" height="171" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1584534339724" />
+    <state width="1877" height="171" key="GridCell.Tab.0.right" timestamp="1584534339724">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="171" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1584534339724" />
     <state x="681" y="261" width="540" height="540" key="StructurePopup" timestamp="1584031153773">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="681" y="261" width="540" height="540" key="StructurePopup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1584031153773" />
+    <state x="552" y="249" key="Vcs.Push.Dialog.v2" timestamp="1584537461248">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1584537461248" />
     <state x="646" y="236" width="627" height="568" key="find.popup" timestamp="1584052798431">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="646" y="236" width="627" height="568" key="find.popup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1584052798431" />
-    <state x="616" y="240" key="run.anything.popup" timestamp="1584055371374">
+    <state x="616" y="240" key="run.anything.popup" timestamp="1584528901358">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1584055371374" />
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1584528901358" />
   </component>
 </project>
