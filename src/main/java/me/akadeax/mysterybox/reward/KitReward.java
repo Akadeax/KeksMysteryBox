@@ -2,8 +2,6 @@ package me.akadeax.mysterybox.reward;
 
 import com.google.gson.Gson;
 import me.akadeax.mysterybox.MysteryBox;
-import net.luckperms.api.model.user.User;
-import net.luckperms.api.node.types.PermissionNode;
 import org.bukkit.Material;
 import org.bukkit.entity.Player;
 import org.bukkit.inventory.ItemStack;
@@ -17,30 +15,29 @@ import java.nio.file.Paths;
 import java.util.Arrays;
 import java.util.List;
 
-public class PermissionReward extends Reward {
+public class KitReward extends Reward {
 
-    public String permission;
+    public String kitName;
+    public ItemStack[] reward;
 
-    public PermissionReward(String permission) {
-        this.permission = permission;
+    public KitReward(String kitName, ItemStack[] reward) {
+        this.kitName = kitName;
+        this.reward = reward;
     }
-
 
     @Override
     public void giveReward(Player toGiveTo) {
-        User user = MysteryBox.getPermissions().getUserManager().getUser(toGiveTo.getUniqueId());
-        user.data().add(PermissionNode.builder(permission).build());
-        MysteryBox.getPermissions().getUserManager().saveUser(user);
+        toGiveTo.getInventory().addItem(reward);
     }
 
     @Override
     public ItemStack getDisplayItem() {
-        ItemStack display = new ItemStack(Material.COMMAND_BLOCK);
+        ItemStack display = new ItemStack(Material.CHEST);
 
         ItemMeta meta = display.getItemMeta();
 
-        String nameDisplayFormat = MysteryBox.mainConfig.getString("rewardDisplay.permission");
-        nameDisplayFormat = nameDisplayFormat.replace("{PERMISSION}", permission);
+        String nameDisplayFormat = MysteryBox.mainConfig.getString("rewardDisplay.kit");
+        nameDisplayFormat = nameDisplayFormat.replace("{KITNAME}", kitName);
         meta.setDisplayName(nameDisplayFormat);
 
         display.setItemMeta(meta);
@@ -54,14 +51,14 @@ public class PermissionReward extends Reward {
 
             if(rewardsFile.createNewFile()) {
                 FileWriter fw = new FileWriter(rewardsFile);
-                fw.write(gson.toJson(new PermissionReward[]{
-                        new PermissionReward("essentials.*")
+                fw.write(gson.toJson(new KitReward[] {
+                        new KitReward("Test", new ItemStack[] { new ItemStack(Material.DIAMOND_BLOCK) })
                 }));
                 fw.close();
             }
 
             String rewardsJson = new String(Files.readAllBytes(Paths.get(rewardsFile.getAbsolutePath())));
-            return Arrays.asList(gson.fromJson(rewardsJson, PermissionReward[].class));
+            return Arrays.asList(gson.fromJson(rewardsJson, KitReward[].class));
 
         } catch(IOException e) {
             e.printStackTrace();

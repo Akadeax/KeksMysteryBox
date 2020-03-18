@@ -20,12 +20,10 @@ public class ItemReward extends Reward {
 
     public ItemReward(ItemStack reward) {
         this.reward = reward;
-        this.rewardType = RewardType.Item;
     }
 
     @Override
     public void giveReward(Player toGiveTo) {
-        toGiveTo.sendMessage("§bYa got item " + reward.getType());
         toGiveTo.getInventory().addItem(reward);
     }
 
@@ -36,7 +34,6 @@ public class ItemReward extends Reward {
 
 
     public static List<Reward> loadRewardsFile(File rewardsFile, Gson gson) {
-
         try {
 
             if(rewardsFile.createNewFile()) {

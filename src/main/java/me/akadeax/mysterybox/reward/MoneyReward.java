@@ -21,12 +21,10 @@ public class MoneyReward extends Reward {
 
     public MoneyReward(double reward) {
         this.amount = reward;
-        this.rewardType = RewardType.Money;
     }
 
     @Override
     public void giveReward(Player toGiveTo) {
-        toGiveTo.sendMessage("§bYa got moneys " + amount);
         MysteryBox.getEconomy().depositPlayer(toGiveTo, amount);
     }
 
