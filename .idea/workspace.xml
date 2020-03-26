@@ -2,37 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a354b44-fd90-49af-9d81-7a0dad963d4e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_luckperms_api_5_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/akadeax/mysterybox/menu/MysteryBoxMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/akadeax/mysterybox/menu/MysteryBoxMenuCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/akadeax/mysterybox/reward/KitReward.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/akadeax/mysterybox/reward/RankReward.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_spigotmc_spigot_api_1_15_2_R0_1_SNAPSHOT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_spigotmc_spigot_api_1_15_2_R0_1_SNAPSHOT.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MysteryBox.iml" beforeDir="false" afterPath="$PROJECT_DIR$/MysteryBox.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/akadeax/mysterybox/AnimationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/akadeax/mysterybox/menu/AnimationController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/akadeax/mysterybox/MysteryBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/akadeax/mysterybox/MysteryBox.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/akadeax/mysterybox/MysteryBoxCommand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/akadeax/mysterybox/MysteryBoxListener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/akadeax/mysterybox/reward/ItemReward.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/akadeax/mysterybox/reward/ItemReward.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/akadeax/mysterybox/reward/MoneyReward.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/akadeax/mysterybox/reward/MoneyReward.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/akadeax/mysterybox/reward/PermissionReward.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/akadeax/mysterybox/reward/PermissionReward.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/akadeax/mysterybox/reward/Reward.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/akadeax/mysterybox/reward/Reward.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/MysteryBox-1.0-shaded.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/MysteryBox-1.0-shaded.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/MysteryBox-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/MysteryBox-1.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/me/akadeax/mysterybox/AnimationController$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/me/akadeax/mysterybox/AnimationController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/me/akadeax/mysterybox/MysteryBox.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/me/akadeax/mysterybox/MysteryBox.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/me/akadeax/mysterybox/MysteryBoxCommand.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/me/akadeax/mysterybox/MysteryBoxListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/me/akadeax/mysterybox/reward/MoneyReward.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/me/akadeax/mysterybox/reward/MoneyReward.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/me/akadeax/mysterybox/reward/PermissionReward.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/me/akadeax/mysterybox/reward/PermissionReward.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/me/akadeax/mysterybox/reward/Reward$RewardType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/me/akadeax/mysterybox/reward/Reward.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/me/akadeax/mysterybox/reward/Reward.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/original-MysteryBox-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/original-MysteryBox-1.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/me/akadeax/mysterybox/reward/ItemReward.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/me/akadeax/mysterybox/reward/ItemReward.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -173,12 +144,20 @@
       <option name="project" value="LOCAL" />
       <updated>1584537470164</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added support for Kit &amp; Rank rewards">
+      <created>1584559271523</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1584559271523</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Made animation fancy" />
-    <option name="LAST_COMMIT_MESSAGE" value="Made animation fancy" />
+    <MESSAGE value="Added support for Kit &amp; Rank rewards" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added support for Kit &amp; Rank rewards" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="179" key="#Auto_Import" timestamp="1584468169683">
@@ -201,38 +180,42 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1584547474640" />
-    <state x="575" y="28" key="CommitChangelistDialog2" timestamp="1584559240416">
+    <state x="575" y="28" key="CommitChangelistDialog2" timestamp="1584559268938">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="575" y="28" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1584559240416" />
-    <state width="1877" height="171" key="GridCell.Tab.0.bottom" timestamp="1584559240485">
+    <state x="575" y="28" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1584559268938" />
+    <state width="1877" height="171" key="GridCell.Tab.0.bottom" timestamp="1584559288409">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="171" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1584559240485" />
-    <state width="1877" height="171" key="GridCell.Tab.0.center" timestamp="1584559240485">
+    <state width="1877" height="171" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1584559288409" />
+    <state width="1877" height="171" key="GridCell.Tab.0.center" timestamp="1584559288409">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="171" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1584559240485" />
-    <state width="1877" height="171" key="GridCell.Tab.0.left" timestamp="1584559240485">
+    <state width="1877" height="171" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1584559288409" />
+    <state width="1877" height="171" key="GridCell.Tab.0.left" timestamp="1584559288409">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="171" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1584559240485" />
-    <state width="1877" height="171" key="GridCell.Tab.0.right" timestamp="1584559240485">
+    <state width="1877" height="171" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1584559288409" />
+    <state width="1877" height="171" key="GridCell.Tab.0.right" timestamp="1584559288409">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="171" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1584559240485" />
+    <state width="1877" height="171" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1584559288409" />
     <state x="681" y="261" width="540" height="540" key="StructurePopup" timestamp="1584031153773">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="681" y="261" width="540" height="540" key="StructurePopup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1584031153773" />
-    <state x="552" y="249" key="Vcs.Push.Dialog.v2" timestamp="1584559225233">
+    <state x="552" y="249" key="Vcs.Push.Dialog.v2" timestamp="1584559275966">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1584559225233" />
+    <state x="552" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1584559275966" />
     <state x="646" y="236" width="758" height="638" key="find.popup" timestamp="1584557956787">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="646" y="236" width="758" height="638" key="find.popup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1584557956787" />
+    <state x="604" y="186" key="new project wizard" timestamp="1584792386001">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="604" y="186" key="new project wizard/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1584792386001" />
     <state x="702" y="131" key="refactoring.ChangeSignatureDialog" timestamp="1584544924147">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
